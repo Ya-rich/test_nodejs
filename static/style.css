@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    background: #F1F5FE;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg, silver, #17a2b8);
+
+}
+
+input {
+    height: 45px;
+    width: 100%;
+    color: #3B5983;
+    font-size: 14px;
+    line-height: 16px;
+    border: 2px solid #E9F2FF;
+    border-radius: 5px;
+    padding-left: 25px;
+}
+
+.log-form-container {
+
+    max-width: 415px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(217, 229, 255, 0.7);
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+
+.reg-form-container {
+
+    max-width: 415px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(217, 229, 255, 0.7);
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+
+.form-title {
+
+    text-align: center;
+    padding: 0 0 15px 0;
+    color: black;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 23px;
+}
+
+.form-field {
+    margin-bottom: 13px;
+}
+
+.button {
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    height: 45px;
+    background: #17a2b8;
+    border-radius: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    border: none;
+}
+
+.next-page-link {
+    margin: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.next-page-link a {
+    text-decoration: none;
+}
+
+.next-page-link a:hover {
+    text-decoration: underline;
+}
+
+.visibility-icon-reg {
+    font-size: 20px;
+    position: fixed;
+    padding-top: 13px;
+    margin-left: 320px;
+}
+
+
+.icons-visibility-login {
+    font-size: 20px;
+    position: fixed;
+    padding-top: 13px;
+    margin-left: 170px;
+}
+.button:hover {
+ box-shadow: 0 0 7px #666;
+}
+
+
+

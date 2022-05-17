@@ -1,0 +1,57 @@
+[
+  {
+    "email": "ddcd@gmail.com",
+    "password": "1234567",
+    "firstName": "Rogh",
+    "lastName": "Pao",
+    "id": 0
+  },
+  {
+    "firstName": "Ярослав",
+    "lastName": "Загнойко",
+    "email": "zagnoykoo@gmail.com",
+    "password": "123456",
+    "passwordAccept": "123456",
+    "id": 1
+  },
+  {
+    "firstName": "Ярослав",
+    "lastName": "Загнойко",
+    "email": "fgdgh@gmail.com",
+    "password": "123456",
+    "passwordAccept": "123456",
+    "id": 2
+  },
+  {
+    "firstName": "Ярослав",
+    "lastName": "Загнойко",
+    "email": "zagnoykooc@gmail.com",
+    "password": "123456",
+    "passwordAccept": "123456",
+    "id": 3
+  },
+  {
+    "firstName": "Ярослав",
+    "lastName": "Загнойко",
+    "email": "ddgdg@gmail.com",
+    "password": "123345667",
+    "passwordAccept": "2356247347",
+    "id": 4
+  },
+  {
+    "firstName": "Ярослав",
+    "lastName": "Загнойко",
+    "email": "ddghjhdg@gmail.com",
+    "password": "123345667",
+    "passwordAccept": "2356247347",
+    "id": 5
+  },
+  {
+    "firstName": "Ярослав",
+    "lastName": "Загнойко",
+    "email": "zagnoyko2o@gmail.com",
+    "password": "fkgkfgkhk",
+    "passwordAccept": "апапап",
+    "id": 6
+  }
+]

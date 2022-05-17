@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    color: #1a202c;
+    text-align: left;
+    /*background-color: #e2e8f0;*/
+    background: #e2e8f0 url(images/Forest.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.page-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    background: white;
+    width: 250px;
+    height: 248px;
+    display: flex;
+    box-shadow: 0 1px 20px 0 rgba(69, 90, 100, .08);
+}
+
+.card .card-body {
+    width: 100%;
+    padding: 30px 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    color: black;
+}
+
+.card .card-body img {
+    border-radius: 50px;
+    margin-bottom: 10px;
+    border: 2px solid #17a2b8; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+
+.card .card-body h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+
+}
+
+.card .card-body p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: gray;
+}
+
+
+.information-form {
+    margin-left: 10px;
+
+
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 38px;
+
+    background: white;
+    text-align: left;
+    height: 248px;
+    width: 600px;
+    box-shadow: 0 1px 20px 0 rgba(69, 90, 100, .08);
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.information-form h5 {
+    text-align: left;
+}
+
+.information-form hr {
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.information-form .form-field {
+
+    font-size: 18px;
+    flex: 1;
+    padding: 10px 15px;
+
+}
+
+.information-form .form-field-info {
+    color: gray;
+    flex: 1;
+    padding: 10px 15px;
+    display: none;
+}
+
+.information-form .form-field-container {
+    flex: 1;
+    display: flex;
+    padding-bottom: 0;
+    padding-top: 9px;
+}
+
+.button-edit {
+    font-weight: 500;
+    font-size: 15px;
+    width: 60px;
+    height: 32px;
+    margin-top: 7px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 100px;
+    color: white;
+    background: #17a2b8;
+    border: none; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    border-radius: 4px;
+}
+
+.button-logout {
+    font-weight: 500;
+    font-size: 15px;
+    width: 100px;
+    height: 32px;
+    margin-left: 408px;
+    margin-top: 7px;
+    margin-bottom: 100px;
+    align-items: center;
+    color: white;
+    background: #17a2b8;
+    border: none; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    border-radius: 4px;
+}
+
+.button-logout-icon {
+    font-size: 20px;
+}
+
+.button-logout-text, .button-logout-icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.button-container {
+    display: flex;
+}
+
+
